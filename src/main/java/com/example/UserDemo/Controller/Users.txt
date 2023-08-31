@@ -1,0 +1,3 @@
+User with name John is posted successfully User with name John Ella is posted successfully User with name Fred is posted successfully 
+User with name Freda is posted successfully 
+User with name Freda is posted successfully 
