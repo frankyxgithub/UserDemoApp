@@ -98,7 +98,7 @@ public class RequestController {
             String insertInfo = String.format("INSERT INTO users(name, age, accountBalance, location) " +
             "VALUES('%s',%d,%d,'%s')", user.getName(), user.getAge(), user.getAccountBalance(), user.getLocation());
             statement.execute(insertInfo);
-            String log = String.format("User with name %s is posted successfully \n", user.getName());
+            String log = String.format("User with name %s is posted successfully\n", user.getName());
 
             LogActivity.writeFile(log);
             return String.format("User with name %s is posted successfully \n", user.getName());
